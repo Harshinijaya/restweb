@@ -1,0 +1,82 @@
+body{
+    background-image: url("WhatsApp Image 2025-10-07 at 8.18.48 PM.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.title{
+    position: absolute;
+    top:10;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',' Geneva';
+    margin-left: 50px;
+    font-size:50px;
+    font-weight: bold;
+    color:rgb(109,25,42)
+
+}
+.link{
+     position: fixed;
+     top:0;
+     @media(any-hover: hover){
+        a:hover{
+          background-color: rgb(123,70,70);
+    }
+}
+margin-top: 40px;
+margin-left: 1040px;
+margin-right: 50px;
+font-family: 'Lucida Sans','Lucida Sans Regular','Lucida Grande','Lucida Sans Unicode',Geneva';
+font-size: 22px;
+}
+.team-grid{
+    /* align-items: center; */
+    bottom:0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    padding:40px;
+    max-width: 1200px;
+    margin:0 auto;
+}
+.team-item {
+    background-color: rgba(216,52,52,0.41);
+    background-size: 200px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid green ;
+    margin-top: 200px;
+    height: 250px;
+}
+.team-item img{
+    width: 120px;
+    height: auto;
+    border-radius 50%;
+    border: 3px solid rgb(223,65,100);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.team-item h2{
+    margin: 0;
+    font-size: 20px;
+    color: rgb(50,3,7);
+}
+.team-item p{ 
+    margin: 0;
+    font-size:20px;
+    color:rgb(140,0,20)
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    background-color: rgb(120,30,45)
+    color: pink;
+    text-align: center;
+    padding: 10px;
+}
+
+

@@ -1,0 +1,71 @@
+body{
+    background-image: url('WhatsApp Image 2025-10-07 at 1.34.57 PM.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    
+
+}
+.title{
+    position: relative;
+    top:0;
+    font-family:'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    margin-left: 5px;
+    font-size:60px;
+    font-weight: bolder;
+    color:rgb(109,27,43);
+}
+.link{
+    position: fixed;
+    top:0;
+    @media(any-hover: hover){
+        a:hover{
+            background-color: rgb(123,70,78);
+
+        }
+    }
+    margin-top: 10px;
+    margin-left: 1000px; 
+    margin-right: 60px;
+    font-family:'Verdana', 'Geneva', 'Tahoma';
+    font-size: 22px;
+}
+.menu-grid{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 9px;
+    padding:19px;
+    background-size: 80%;
+    background-color: rgba(180, 11, 45, 0.5);
+}
+.menu-item {
+    background-color: rgba(66, 50, 213, 0.51);
+    background-size: 700px;
+    padding: 1px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #460814;
+}
+.menu-item img{
+    
+    width: 100%;
+    height: auto;
+    border-radius:4px;
+    margin-bottom:5px;
+}
+.menu-item h3{
+    margin: 0;
+    font-size: 20px;
+    color:greenyellow;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(120,30,41);
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
