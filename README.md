@@ -492,11 +492,10 @@ body{
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot 2025-10-07 221508.png>)
-![alt text](<Screenshot 2025-10-07 221357.png>)
-![alt text](<Screenshot 2025-10-07 221436.png>)
-![alt text](<Screenshot 2025-10-07 221319.png>)
-
+![alt text](<Screenshot (21).png>)
+![alt text](<Screenshot (22).png>)
+![alt text](<Screenshot (23).png>)
+![alt text](<Screenshot (24).png>)
 
 
 ## RESULT:
